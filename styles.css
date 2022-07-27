@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inconsolata", serif;
+}
+
+/*
+font-family: "Tangerine", Times New Roman, serif;
+font-family: "Ubuntu", Times New Roman, serif;
+font-family: "Inconsolata", Times New Roman, serif;
+
+*/
+
+hr {
+    border-style: dotted none none none;
+    width: 11%;
+    border-color: #E8E8E8;
+    border-width: .75em;
+    margin: 100px auto 100px auto;
+
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 4.425rem;
+    font-family: "Cinzel Decorative", Times New Roman, serif;
+    font-color: #366BFBF;
+    line-height: 2;
+    font-weight: lighter;
+
+}
+
+h2 {
+    margin-top: 25px auto 0 auto;
+    font-size: 1.5rem;
+    font-family: "Inconsolata", serif;
+    font-color: #366BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-color: #11999E;
+    font-size: 1.5rem;
+}
+
+a {
+    font-color: #11999E;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #30e3cb;
+    text-decoration: none;
+}
+
+.top-container {
+    background-color: #E8E8E8;
+    position: relative;
+    padding: 100px;
+}
+
+.middle-container {
+    margin: 75px;
+}
+
+.bottom-container {
+    background-color: #E8E8E8;
+    position: relative;
+    padding-top: 125px;
+    padding-bottom: 25px;
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: "Inconsolata", serif;
+  color: #e8e8e8;
+  font-size: 16px;
+  background: #11999e;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  position: relative;
+  top: 25px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  text-decoration: none;
+}
+
+.short-bio {
+    width: 33%;
+    margin: 50px auto 50px auto;
+    text-align: start;
+    line-height: 1.6;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: start;
+    line-height: 1.6;
+}
+
+.skill1-img {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.skill2-img {
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+p {
+    line-height: 2;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
